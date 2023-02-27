@@ -1,0 +1,26 @@
+<%- include('top')  %> 
+    <div class="jumbo">
+        <h1> <%= tdata  %>  </h1>
+        <p></p>
+    </div>
+    <main>
+        <p>Below is a list of staff.</p>
+
+       <code> <%=  %> </code>
+    
+       <ul>
+       <%  rows.forEach( (row) => {   %>
+
+        
+      
+            <div>  
+                 <%= row.first_name %>
+            </div>
+
+
+        <%  }); %>
+       </ul>
+
+    </main>
+</body>
+</html>
